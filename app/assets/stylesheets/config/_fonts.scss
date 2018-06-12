@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,600|Merriweather:300');
+
+$body-font: 'Merriweather', serif;
+$headers-font: 'Archivo Narrow', sans-serif;
+
+h1 {
+  font-family: $headers-font;
+  font-size: 4.7em;
+}
+
+p {
+  font-size: 0.875em;
+  font-family: $body-font;
+}

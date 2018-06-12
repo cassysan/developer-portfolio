@@ -1,0 +1,62 @@
+.skills, .about, .contact, .projects{
+  margin-left: 25%;
+  font-family: 'Archivo Narrow', sans-serif;
+  h1 {
+    margin-left: 20px;
+  }
+}
+
+.about-details {
+  text-align: center;
+  color: black;
+  ul > li {
+    display: inline;
+    color: black;
+    a {
+    color: black !important;
+    }
+  }
+}
+
+.overview, .front-end, .back-end, .about-details {
+  p {
+  font-family: 'Merriweather', serif;
+  }
+  .fas, .fab {
+  color: #d3aba7;
+  }
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+  border-radius: 4px;
+  background-color: rgba(211, 171, 167, 0.1);
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 20px;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: #EEA3A1;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.fa-5x {
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+  padding: 10px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1023px) {
+  .skills, .about, .contact, .projects{
+    margin: auto;
+    margin-left: 30px;
+    h1 {
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.avatar-lg {
+  border-radius: 50%;
+  height: 200px;
+  margin: 20px;
+}
+
+
+.avatar-md {
+  border-radius: 50%;
+  height: 150px;
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  img {
+    align-items: stretch;
+    height: 300px;
+  }
+}

@@ -1,0 +1,102 @@
+<div class="sidebar">
+  <div class="sidebar-content">
+    <%= link_to root_path do %>
+    <div class="name-and-photo">
+      <div class="avatar">
+        <%= image_tag 'cassy.jpg', class: "avatar-lg" %>
+      </div>
+      <div class="name">
+        <h3 class="text-center">Cassy Myers</h3>
+        <p class="text-center">Full Stack Web Developer</p>
+    <% end %>
+      </div>
+    </div>
+    <br>
+    <div class="web-tabs">
+      <ul>
+        <li>
+          <%= link_to skills_portfolio_index_path do %>
+          Skills
+          <% end %>
+        </li>
+        <li>
+          <%= link_to  projects_portfolio_index_path do %>
+          Portfolio
+          <% end %>
+        </li>
+        <li>
+          <%= link_to contact_portfolio_index_path do  %>
+          Contact
+          <% end %>
+        </li>
+        <li>
+          <%= link_to  about_portfolio_index_path  do %>
+          About Me
+          <% end %>
+        </li>
+        <li>
+        </ul>
+        <ul class="contact-icons">
+          <li> <a href=""> <i class="fas fa-envelope fa-lg"></i> </a></li>
+          <li><a href="https://github.com/cassysan"><i class="fab fa-github fa-lg"></i></a></li>
+          <li> <a href="https://www.linkedin.com/in/cassy-myers/"> <i class="fab fa-linkedin fa-lg"></i></a></li>
+        </ul>
+    </div>
+
+
+      <!--       NAVBAR FOR MOBILE/TABLET-->
+
+
+    </div>
+</div>
+<% unless current_page?(controller: 'portfolio', action: 'index') %>
+  <div class="top-navbar">
+    <div class="name-and-photo-mobile text-center">
+    <%= link_to root_path do %>
+      <div class="avatar-mobile text-center">
+        <%= image_tag 'cassy.jpg', class: "avatar-md text-center" %>
+      </div>
+      <div class="name">
+        <h3 class="text-center">Cassy Myers</h3>
+        <p class="text-center">Full Stack Web Developer</p>
+    <% end %>
+      </div>
+    </div>
+<% end %>
+  <div class="navbar-mobile">
+
+
+
+    <ul class="contact-icons">
+      <li> <a href=""> <i class="fas fa-envelope fa-lg"></i> </a></li>
+      <li><a href="https://github.com/cassysan"><i class="fab fa-github fa-lg"></i></a></li>
+      <li> <a href="https://www.linkedin.com/in/cassy-myers/"> <i class="fab fa-linkedin fa-lg"></i></a></li>
+      <li><a href="https://medium.com/@cassymyers" target="_blank"><i class="fab fa-medium fa-lg"></i></a></li>
+      <li><a href="https://awaywestray.com" target="_blank"><i class="fas fa-paper-plane fa-lg"></i></a></li>
+    </ul>
+    <div class="web-tabs">
+      <ul>
+        <li>
+          <%= link_to skills_portfolio_index_path do %>
+          Skills
+          <% end %>
+        </li>
+        <li>
+          <%= link_to  projects_portfolio_index_path do %>
+          Portfolio
+          <% end %>
+        </li>
+        <li>
+          <%= link_to contact_portfolio_index_path do  %>
+          Contact
+          <% end %>
+        </li>
+        <li>
+          <%= link_to  about_portfolio_index_path  do %>
+          About Me
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

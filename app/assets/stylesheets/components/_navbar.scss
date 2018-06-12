@@ -1,0 +1,152 @@
+.sidebar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(211, 171, 167, 0.8);
+  width: 25%;
+  font-family: 'Merriweather', serif;
+}
+.navbar-mobile, .avatar-mobile {
+  display: none;
+}
+
+.sidebar-content {
+  position: relative;
+  margin: auto;
+  width: 75%;
+  font-size: 1.25em;
+  h3 {
+    font-size: 2.5rem;
+  }
+
+}
+.name-and-photo {
+  font-family: 'Archivo Narrow', sans-serif;
+  p {
+    opacity: 0.7;
+    text-decoration: none !important;
+  }
+  &:hover {
+    opacity: 0.7;
+    font-weight: lighter;
+    text-decoration: none !important;
+  }
+}
+.web-tabs > ul > li {
+    text-decoration: none !important;
+    &:hover {
+    text-decoration: none !important;
+    opacity: 0.7;
+  }
+}
+
+.contact-icons > li {
+  display:inline;
+
+}
+.contact-icons {
+  position: fixed;
+  bottom: 2%;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+}
+.fa-lg {
+  font-size: 1.5em;
+}
+  @media only screen and (max-width: 1023px) {
+    .top-navbar {
+      background: rgba(211, 171, 167, 0.8);
+    }
+    .name > a:hover {
+        text-decoration: none;
+        opacity: 0.7;
+        transition-delay: 0.5s;
+      }
+
+    .name:hover {
+      text-decoration: none;
+      opacity: 0.7;
+      transition-delay: 0.5s;
+    }
+    .navbar-mobile {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      background: rgba(211, 171, 167, 0.8);
+      justify-content: space-between;
+      width: 100%;
+      height: 50px;
+      text-align: right;
+      font-family: 'Merriweather', serif;
+      .contact-icons {
+        position: relative;
+        color:black;
+        display: flex;
+        justify-content: space-around;
+        li {
+          padding: 10px;
+          margin-top: 10px;
+        }
+      }
+      .web-tabs {
+        font-family: 'Archivo Narrow', sans-serif;
+        margin-right: 30px;
+        margin-top: 15px;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        li {
+          display: inline;
+          padding: 10px;
+          margin-top: 15px;
+        }
+      }
+      .name-and-photo-mobile, .avatar-md, .avatar-mobile {
+        display: inline-block !important;
+
+      }
+    }
+
+    .avatar-lg .name-and-photo, .sidebar {
+      display: none;
+    }
+    .avatar-mobile {
+      display: inline;
+    }
+}
+
+
+
+  .mobile-contact-icons {
+    display: flex;
+    justify-content: space-around;
+    li {
+      margin-right: 3px;
+      margin-top: 3px;
+    }
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .navbar-mobile {
+    }
+    .web-tabs {
+
+      li {
+        font-size: 15px;
+      }
+    }
+    .contact-icons {
+
+      .fa-lg {
+        font-size: 1em;
+      }
+    }
+  }
