@@ -14,7 +14,7 @@
  *= require_self
  */
 
-@import 'index';
+@import 'components/index';
 @import 'fonts';
 @import 'colors';
 @import 'bootstrap';
