@@ -14,5 +14,5 @@
  *= require_self
  */
 
-@import 'components/_index';
+@import 'components/index';
 @import 'config/index';
