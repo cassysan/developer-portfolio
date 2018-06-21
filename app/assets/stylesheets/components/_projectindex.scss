@@ -12,6 +12,10 @@
 .project-text {
   width: 50%;
   padding-right: 30px;
+  font-size: 14px;
+  a {
+    font-size: 14px;
+  }
 }
 .project-screenshot {
   width: 50%;
@@ -22,6 +26,7 @@
 .project-title {
   color: black;
   font-family: 'Archivo Narrow', sans-serif;
+  font-size: 30px;
 
 }
 
@@ -31,6 +36,7 @@
   font-size: 1.125em;
   font-weight: lighter;
   font-family: 'Archivo Narrow', sans-serif;
+  font-size: 18px;
 
 }
 
@@ -51,9 +57,10 @@
     overflow: hidden;
     padding: 3px;
     a {
-    border-radius: 4px;
+    border-radius: 2px;
     text-transform: uppercase;
-    }
+    font-size: 12px;
+      }
     }
   }
 
@@ -67,6 +74,7 @@
 
 .tech {
   margin-top: 37px;
-  font-size: 14px;
-  text-transform: uppercase;
+  color: black;
+  font-size: 10px;
+  letter-spacing: 2px;
 }

@@ -3,6 +3,7 @@
   font-family: 'Archivo Narrow', sans-serif;
   h1 {
     margin-left: 20px;
+    font-size: 36px;
   }
 }
 
@@ -21,6 +22,7 @@
 .overview, .front-end, .back-end, .about-details {
   p {
   font-family: 'Merriweather', serif;
+  font-size: 14px;
   }
   .fas, .fab {
   color: #d3aba7;
@@ -48,6 +50,7 @@
   padding: 10px;
   border-radius: 3px;
   background-color: white;
+  font-size: 80px;
 }
 
 @media only screen and (max-width: 1023px) {

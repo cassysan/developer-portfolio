@@ -9,7 +9,7 @@
   width: 25%;
   font-family: 'Merriweather', serif;
 }
-.navbar-mobile, .avatar-mobile {
+.navbar-mobile, .avatar-mobile, .top-navbar {
   display: none;
 }
 
@@ -61,7 +61,18 @@ ul {
 }
   @media only screen and (max-width: 1023px) {
     .top-navbar {
+      display: inline-block;
       background: rgba(211, 171, 167, 0.8);
+      h3 {
+        font-size: 36px;
+        font-family: 'Archivo Narrow', sans-serif;
+      }
+      p {
+        font-size: 14px;
+      }
+      .fas {
+        font-size: 20px;
+      }
     }
     .name > a:hover {
         text-decoration: none;
@@ -106,6 +117,7 @@ ul {
           display: inline;
           padding: 10px;
           margin-top: 15px;
+          font-size: 14px;
         }
       }
       .name-and-photo-mobile, .avatar-md, .avatar-mobile {
