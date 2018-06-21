@@ -17,7 +17,7 @@
   position: relative;
   margin: auto;
   width: 75%;
-  font-size: 1.25em;
+  font-size: 2em;
   h3 {
     font-size: 4rem;
   }
@@ -50,6 +50,7 @@
 .contact-icons {
   position: fixed;
   bottom: 2%;
+  font-size: 18px;
 }
 
 ul {
@@ -61,7 +62,7 @@ ul {
 }
   @media only screen and (max-width: 1023px) {
     .top-navbar {
-      display: inline-block;
+      display: inherit;
       background: rgba(211, 171, 167, 0.8);
       h3 {
         font-size: 36px;
@@ -102,7 +103,7 @@ ul {
         justify-content: space-around;
         li {
           padding: 10px;
-          margin-top: 10px;
+          margin-top: 15px;
         }
       }
       .web-tabs {
@@ -117,7 +118,7 @@ ul {
           display: inline;
           padding: 10px;
           margin-top: 15px;
-          font-size: 14px;
+          font-size: 16px;
         }
       }
       .name-and-photo-mobile, .avatar-md, .avatar-mobile {
